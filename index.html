@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proforma de PC</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ARMA TU COMPU CON LOS MEJORES COMPONENTES</h1>
+        <form id="computer-form">
+            <label for="cpu">CPU:</label>
+            <select id="cpu" name="cpu">
+                <option value="0">ninguno - $0</option>
+                <option value="1934">Intel i5 - $1934</option>
+                <option value="2328">Intel i7 - $2328</option>
+                <option value="3099">Intel i9 - $3099</option>
+            </select>
+
+            <label for="gpu">GPU:</label>
+            <select id="gpu" name="gpu">
+                <option value="0">ninguno - $0</option>
+                <option value="150">NVIDIA GTX 1660 - $150</option>
+                <option value="300">NVIDIA RTX 3060 - $300</option>
+                <option value="500">NVIDIA RTX 3080 - $500</option>
+            </select>
+
+            <label for="ram">RAM:</label>
+            <select id="ram" name="ram">
+                <option value="0">ninguno - $0</option>
+                <option value="50">8GB - $50</option>
+                <option value="100">16GB - $100</option>
+                <option value="150">32GB - $150</option>
+            </select>
+
+            <label for="almacenamiento">ALMACENAMIENTO:</label>
+            <select id="almacenamiento" name="almacenamiento">
+                <option value="0">ninguno - $0</option>
+                <option value="50">500GB HDD - $50</option>
+                <option value="100">1TB HDD - $100</option>
+                <option value="150">512GB SSD - $150</option>
+            </select>
+
+            <label for="teclado">TECLADOS:</label>
+            <select name="teclado" id="teclado">
+                <option value="0">ninguno - $0</option>
+                <option value="35">Basics Teclado USB con cable de perfil bajo con diseño de EE. UU. (QWERTY), negro - $35</option>
+                <option value="50">Macally Teclado inalámbrico, teclado blanco inalámbrico de 2.4 G, teclado ergonómico - $50</option>
+                <option value="170">Teclado mecánico para juegos G815 RGB - $170</option>
+             </select>
+
+             <label for="monitores">MONITORES:</label>
+             <select name="monitores" id="monitores">
+                <option value="0">ninguno - $0</option>
+                <option value="320">Monitor Gaming Odyssey OLED G6 de 27'' - $320</option>
+                <option value="2719">MONITOR ASUS PROART DISPLAY PA278CV 27' 16:9 ADAPTIVE-SYNC QHD IPS - $2719</option>
+                <option value="859">MONITOR LG 25UM58, 25' IPS, ULTRAWIDE, 2560 X 1080, HDMI. - $859</option>
+             </select>
+
+             <label for="audifonos">AUDIFONOS:</label>
+             <select name="audifonos" id="audifonos">
+                <option value="0">ninguno - $0</option>
+                <option value="499">Audífonos Profesionales MDR-7506 - $499</option>
+                <option value="679">Audífonos inalámbricos con Noise Cancelling ULT WEAR - $679</option>
+                <option value="599">Audífonos inalámbricos con micrófono INZONE H5 para juegos - $599</option>
+             </select>
+
+             <label for="fuentes">FUENTES DE PODER:</label>
+             <select name="fuentes" id="fuentes">
+                <option value="0">ninguno - $0</option>
+                <option value="145">FUENTE DE PODER, 1ST PLAYER, 600W 80+ WHITE PS-600BS - $145</option>
+                <option value="157">FUENTE DE PODER, ANTRYX, XBR-550 550W 80+ BRONZE - $157</option>
+                <option value="314">FUENTE RGB-850W GAMEMAX MODULAR 80PLUS GOLD - $314</option>
+             </select>
+
+             <label for="placa">PLACAS MADRES:</label>
+             <select name="placa" id="placa">
+                <option value="0">ninguno - $0</option>
+                <option value="210">MBB, BIOSTAR, A520MH AM4 - $210</option>
+                <option value="309">MBB, MSI, PRO H610M-G S/V/L DDR4 LGA1700 - $309</option>
+                <option value="774">MBB, ASUS TUF GAMING, B550-PLUS WI-FI DDR4 - $774</option>
+             </select>
+
+
+            <div class="total">
+                <p>Total: $<span id="total">0</span></p>
+            </div>
+            <button type="button " id="reset_button">reiniciar</button>
+        </form>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>

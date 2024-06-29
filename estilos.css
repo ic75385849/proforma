@@ -1,0 +1,55 @@
+body {
+    font-family: cursive;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(178, 178, 212);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(85, 79, 170);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 10px;
+    color: blue;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.total {
+    text-align: end;
+    font-size: 1.5em;
+    color: black;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
